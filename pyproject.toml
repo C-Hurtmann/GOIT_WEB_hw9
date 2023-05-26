@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "goit-web-hw9"
+version = "0.1.0"
+description = ""
+authors = ["C-Hurtmann <constantine2903@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_web_hw9", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lxml = "^4.9.2"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+sqlalchemy = "^2.0.15"
+scrapy = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
